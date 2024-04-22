@@ -1,0 +1,23 @@
+main {
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.color {
+    color: white;
+    text-align: center;
+}
+
+#giocatore {
+    border: 1px solid green;
+}
+
+#computer {
+    border: 1px solid green;
+}
+
+.centered {
+    text-align: center;
+}
