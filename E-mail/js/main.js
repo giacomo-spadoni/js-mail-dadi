@@ -3,17 +3,24 @@
 const email = ['mia@email.it', 'sua@email.it', 'nostra@email.it']
 const emailUtente = prompt('inserisci quì la tua mail per verificare di poter accedere')
 
-// faccio un controllo su tutti i dati dell'array uno per uno con i condizionali ---deprecated---
+// // creo le variabili per l'accesso il successo o il fallimento
 
-// if (emailUtente == email[0]) {
-//     alert('email presente nei nostro database, puoi accedere!')
-// } else if (emailUtente == email[1]) {
-//     alert('email presente nei nostro database, puoi accedere!')
-// } else if (emailUtente == email[2]) {
-//     alert('email presente nei nostro database, puoi accedere!')
-// } else {
-//     alert('email non riconosciuta, non puoi accedere')
+// let success = 'successo'
+// let fail = 'negato'
+
+// let access = fail
+// // creo il ciclo per controllare se l'input utente è presente nell'array
+
+// for (let i = 0; i < email.length; i++) {
+//     if (emailUtente == email[i]) {
+//         access = success
+//         break
+//     }
 // }
+
+// // stampo l'alert
+
+// alert(access)
 
 // faccio un controllo con il metodo .includes
 
